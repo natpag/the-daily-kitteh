@@ -56,8 +56,13 @@ img {
   margin-left: 2rem;
 }
 
+h3 {
+  margin: .25rem;
+}
+
 .BusyKittehs {
-  margin: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .BottomNav ul {
