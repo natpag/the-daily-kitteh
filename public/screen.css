@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-color: #008BA1;
 }
 
 html {
@@ -9,4 +10,62 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+main {
+  background-color: #ddf2f3;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+h1 {
+  text-align: center;
+  color: #445467;
+  margin: 0;
+  padding-top: 1rem;
+  font-family: "Georgia";
+  font-weight: normal;
+}
+
+.TopNav ul {
+  font: sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+  background-color: #00bfd5;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: .5rem;
+}
+
+.PageBody {
+  display: flex;
+}
+
+img {
+  width: auto;
+  height: 10rem;
+  margin: .25rem;
+}
+
+.KoTD {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #00bfd5;
+  margin-left: 2rem;
+}
+
+.BusyKittehs {
+  margin: 2rem;
+}
+
+.BottomNav ul {
+  font: sans-serif;
+  background-color: #D3D3D3;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1rem
 }
