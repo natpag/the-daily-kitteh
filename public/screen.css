@@ -14,8 +14,9 @@ body {
 
 main {
   background-color: #ddf2f3;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: .5rem;
 }
 
 h1 {
@@ -24,7 +25,7 @@ h1 {
   margin: 0;
   padding-top: 1rem;
   font-family: "Georgia";
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .TopNav ul {
@@ -41,6 +42,7 @@ h1 {
 
 .PageBody {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 img {
@@ -52,12 +54,20 @@ img {
 .KoTD {
   border-style: solid;
   border-width: 1px;
-  border-color: #00bfd5;
+  border-color: #008BA1;
   margin-left: 2rem;
 }
 
-h3 {
+.header {
+  font-family: Tahoma, sans-serif;
+  font-weight: 800;
+  color: #415467;
   margin: .25rem;
+}
+
+h2 {
+  font-family: Tahoma, sans-serif;
+  color: #415467;
 }
 
 .BusyKittehs {
